@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration variable="t_rpt_def" searchTitle="Search 报表自定义" rowsPerPage="10" readTitle="报表自定义" query="from t_rpt_def order by id desc" name="t_rpt_def" largeResultSet="false" editTitle="Edit 报表自定义" database="riil_its_board" createTitle="Create 报表自定义">
+    <properties>
+        <property updatable="false" searchable="false" name="c_id" label="主键" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_name_en" label="英文名称" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_name" label="报表名称" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_type_id" label="类型" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_display_type_id" label="展现类型" insertable="true" inSummary="true" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_is_regular" label="是否定期报表" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_is_query" label="是否查询报表" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_title" label="报表标题" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_sub_title" label="报表子标题" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_sub_rpt_def_ids" label="子报表id" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_class" label="实现类" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_create_param_page" label="创建参数页面Url" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_query_param_page" label="查询参数页面Url" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_sql" label="表格sql" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_chart_type" label="图类型" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_chart_orientation" label="图方向，水平Horizontal，垂直Vertical" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_chart_sql" label="附属图sql" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_chart_x" label="图X轴字段" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_chart_y" label="图Y轴字段" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_chart_value" label="图值字段" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_help" label="帮助说明" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_row_number_type" label="行号类型" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_is_show_page_number" label="是否显示页码" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_is_enabled" label="是否启用" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_config" label="扩展信息" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_sort_id" label="排序号" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag1" label="冗余字段1" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag2" label="冗余字段2" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag3" label="冗余字段3" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag4" label="冗余字段4" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_create_user" label="创建用户" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_create_time" label="创建时间" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_modify_user" label="修改用户" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_modify_time" label="修改时间" insertable="true" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+    </properties>
+    <selectionProviders>
+        <selectionProvider selectionProvider="c_chart_y" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+        <selectionProvider selectionProvider="c_chart_value" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+        <selectionProvider selectionProvider="c_row_number_type" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+        <selectionProvider selectionProvider="c_chart_x" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+        <selectionProvider selectionProvider="rpt_def_chart_orientation" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+        <selectionProvider selectionProvider="rpt_def_display_type_id" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+        <selectionProvider selectionProvider="c_chart_type_chart_type" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+        <selectionProvider selectionProvider="rpt_def_type_id" searchDisplayMode="DROPDOWN" enabled="true" displayMode="DROPDOWN" createNewValueText=""/>
+    </selectionProviders>
+</configuration>

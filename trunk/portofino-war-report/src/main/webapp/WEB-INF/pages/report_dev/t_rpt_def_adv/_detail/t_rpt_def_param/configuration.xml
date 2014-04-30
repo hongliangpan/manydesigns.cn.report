@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration variable="t_rpt_def_param" searchTitle="Search t rpt def param" rowsPerPage="10" readTitle="t rpt def param" query="from t_rpt_def_param where c_rpt_def_id = %{#t_rpt_def.c_id} order by id desc" name="t_rpt_def_param" largeResultSet="false" editTitle="Edit t rpt def param" database="riil_its_board" createTitle="Create t rpt def param">
+    <properties>
+        <property updatable="false" searchable="false" name="c_id" label="主键" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_rpt_def_id" label="报表定义" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_display_name" label="显示名称，如：资源类型" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_tips" label="提示" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_sql" label="参数数据来源sql" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="true" name="c_is_single" label="是否单值，1=单选；0多选" insertable="true" inSummary="true" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_is_query_param" label="是否查询参数" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_is_build_param" label="是否构建参数" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_display_style" label="显示类型，下拉框、单选、复选、左右选择、弹出窗口、custom等" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_param_type" label="参数类型,如：资源选择、接口选择" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_depend_def_param_id" label="依赖参数" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_url" label="定制页面url" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_config" label="扩展信息" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_sort_id" label="排序号" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag1" label="冗余字段1" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag2" label="冗余字段2" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag3" label="冗余字段3" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="false" searchable="false" name="c_tag4" label="冗余字段4" insertable="false" inSummary="false" enabled="false">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_create_user" label="创建用户" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_create_time" label="创建时间" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_modify_user" label="修改用户" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_modify_time" label="修改时间" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+        <property updatable="true" searchable="false" name="c_field" label="参数字段，如：c_res_type_id" insertable="true" inSummary="false" enabled="true">
+            <annotations/>
+        </property>
+    </properties>
+    <selectionProviders/>
+</configuration>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page title="报表自定义" navigationRoot="INHERIT" id="cppl8bq3kxn3q4ap6tt676rmw" description="报表自定义">
+    <detailLayout template="default">
+        <childPages>
+            <childPage showInNavigation="false" order="0" name="t_rpt_def_period" container="default"/>
+        </childPages>
+    </detailLayout>
+    <layout template="default">
+        <childPages/>
+    </layout>
+    <permissions/>
+</page>
